@@ -1,0 +1,15 @@
+# config file for snakemake genomescope
+# load environment hscon5
+
+metadata: /scratch/antwerpen/grp/asvardal/projects/felids/data/Metadata_Felidae_Final.tsv
+
+outdir: /scratch/antwerpen/grp/asvardal/projects/felids/data
+
+scripts: /scratch/antwerpen/grp/asvardal/projects/felids/bin/
+
+#Exclude specific samples by unique_id (between "")
+#Option should be enabled in Snakefile before use
+exclude: []
+#Include only specific samples by unique_id (between "")
+#Option should be enabled in Snakefile before use
+include: []
