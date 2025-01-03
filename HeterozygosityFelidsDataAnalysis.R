@@ -1082,7 +1082,7 @@ panthera_plot<-
 attach(meaniucnbox)
 mean_IUCN_plot<-
   ggboxplot(meaniucnbox, x ="IUCN_status" , y = "heterozygosity_cat") +
-    geom_point(data = subset(datae, species == "Puma concolor")) +
+#    geom_point(data = subset(datae, species == "Puma concolor")) +
     geom_text_repel(aes(label=outlier_mean_IUCN),na.rm=TRUE, hjust = 0, vjust = 1) +
     stat_summary(fun.data = sample.size, geom = "text") +
     theme_light() +
