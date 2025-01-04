@@ -1,0 +1,94 @@
+# Snakemake config file for variant calling
+# Adapted from Els De Keyser's version of the Svardal Lab call script
+# Pti1 Panthera tigris reference genome
+# 03MAR23
+
+README: Callset of Felidae sp. from NCBI SRA
+        No previous filtering, Illumina only  
+
+samples_per_fig_dp_hists : 99 #not sure what this means
+
+data_dir: /scratch/antwerpen/grp/asvardal/projects/felids/data
+ana_dir: /scratch/antwerpen/grp/asvardal/projects/felids/data/AlignmentVariantCalling
+results_dir: /scratch/antwerpen/grp/asvardal/projects/felids/variants
+
+
+sample_mt: /scratch/antwerpen/grp/asvardal/projects/felids/data/Metadata_Felidae_Altfor_Final.tsv
+chrom_names: /scratch/antwerpen/grp/asvardal/projects/felids/data/reference_genomes/Pti1/chrom_names
+chrom_names_nucl: /scratch/antwerpen/grp/asvardal/projects/felids/data/reference_genomes/Pti1/chrom_names_nucl #Chr1-24 without MT
+
+callset_id: 'Felidhet'
+
+study: Felidhet
+
+ref:
+    species: Panthera tigris
+    name: Pti1
+    base_fn: /scratch/antwerpen/grp/asvardal/projects/felids/data/reference_genomes/Pti1/GCA_018350195.2_P.tigris_Pti1_mat1.1_genomic
+    ext_fa: .fna.gz
+    ext_fai: .fna.fai
+
+
+remove_samples_after_calling:
+
+individual_filter_sets:
+    no_if1:
+        allele_balance: 0
+        low_gq: 0
+        max_dp_to_missing_pval: 0
+        min_dp_to_missing_pval: 0
+
+    tif1:
+        allele_balance: 0.01
+        low_gq: 0
+        max_dp_to_missing_pval: 1.0e-2
+        min_dp_to_missing_pval: 0
+
+
+site_filter_sets:
+    sf_stringent1:
+        #filter sites between two filtered sites if the filtered sites are closer than this value
+        merge_dist: 10
+        filters:
+            LowMQ:
+                #expression: "MQ < 50.0"
+                #description: "Root mean square MQ < 30"
+                tag: 'MQ'
+                threshold: 50.0
+                threshold_type: 'absolute'
+                operator: '<'
+            ExcessMQ0:
+                #expression: "MQ0F > 0.15"
+                #description: "Fraction of MQ0 reads > 0.10"
+                tag: 'MQ0F'
+                threshold: 0.1
+                threshold_type: 'absolute'
+                operator: '>'
+            #StrandBias:
+                ##expression: "MQSB < 1e-10"
+                #tag: 'MQSB'
+                #threshold: 1.0e-3
+                #threshold_type: 'absolute'
+                #operator: '<'
+                #description: "Highly significant Mann-Whitney U test of Mapping Quality vs Strand Bias."
+            ExcessHet:
+                tag: 'ExcHetOrig'
+                threshold: 0.2
+                threshold_type: 'absolute'
+                operator: '<'
+            AlleleBalance:
+                tag: 'AB_Het'
+                threshold: 20
+                threshold_type: 'absolute'
+                operator: '>'
+            DepthDeviation:
+                tag: 'DD'
+                threshold: 1.5
+                threshold_type: 'absolute'
+                operator: '>'
+            ExcessMissing:
+                tag: 'MF'
+                threshold: 0.2
+                threshold_type: 'absolute'
+                operator: '>'
+
