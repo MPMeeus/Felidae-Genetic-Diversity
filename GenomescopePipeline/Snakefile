@@ -1,7 +1,7 @@
-shell.prefix("source /data/antwerpen/grp/asvardal/share/hscon6_setup.sh; ")
+shell.prefix("source /data/antwerpen/grp/asvardal/share/hscon5_setup.sh; ")
 ### Snakefile for using  genomescope, with associated config file config.yaml
 ### Pipeline to gain estimates of heterozygosity from full genomes
-### Load associated environment with $ conda activate hscon6
+### Load associated environment with $ conda activate hscon5
 ### Author Meeus Michaël
 
 
