@@ -3,23 +3,23 @@
 ###############
 #LOAD PACKAGES#
 ###############
-library(tidyverse)
-library(scales)
-library(flextable)
-library(flexlsx)
-library(rphylopic)
-library(ape)
-library(GGally)
-library(ggpmisc)
-library(car)
-library(tree)
-library(sensemakr)
-library(ggplot2)
-library(ggrepel)
-library(ggtext)
-library(ggsignif)
-library(ggpubr)
-library(patchwork)
+library(tidyverse) #v2.0.0
+library(scales) #v1.3.0
+library(flextable) #v0.9.7
+library(flexlsx) #v0.3.0
+library(rphylopic) #v1.5.0
+library(ape) #v5.8
+library(GGally) #v2.2.1
+library(ggpmisc) #v0.6.1
+library(car) #v3.1-3
+library(tree) #v1.0-43
+library(sensemakr) #v0.1.6
+library(ggplot2) #v3.5.1
+library(ggrepel) #v0.9.6
+library(ggtext) #v0.1.2
+library(ggsignif) #v0.6.4
+library(ggpubr) #v0.6.0
+library(patchwork) #v1.3.0
 
 
 ##################
