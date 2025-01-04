@@ -1,5 +1,5 @@
 # config file for snakemake genomescope
-# load environment hscon5
+# load environment hscon6
 
 metadata: /scratch/antwerpen/grp/asvardal/projects/felids/data/Metadata_Felidae_Final.tsv
 
