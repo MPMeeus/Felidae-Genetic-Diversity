@@ -24,7 +24,10 @@ library(ordinal) #v2023.12-4.1
 library(rcompanion) #v2.5.0
 library(gofcat) #v0.1.2
 library(picante) #v1.8.2
-
+library(lme4) #v1.1-35.5
+library(lmerTest) #v3.1-3
+library(performance) #v0.13.0
+library(partR2) #v0.9.2
 
 
 ##################
@@ -32,10 +35,10 @@ library(picante) #v1.8.2
 ##################
 
 #Putting data from csv in variables
-samples<-read.csv("Sample_info_manuscript.csv", header = T, sep = ";")
+samples<-read.csv("Sample_Info.csv", header = T, sep = ";")
 ecology <- read.csv("Felid_Ecological_Data.csv", header = T, sep = ";",na.strings="")
-vcf<-read.csv("Felid_Heterozygosity_manuscript.csv", header = T, sep = ";")
-hetcomp<-read.csv("Het_Comp_manuscript.csv", header = T, sep = ";")
+vcf<-read.csv("Felid_Heterozygosity.csv", header = T, sep = ";")
+hetcomp<-read.csv("Heterozygosity_Comparison.csv", header = T, sep = ";")
 
 #Merging data together for analysis
 data<-merge(samples, vcf, by = "unique_id")
@@ -57,10 +60,10 @@ comp <- comp_nf %>% filter(Coverage_cat > 7 | Coverage_tiger > 7)
 #Add a distance column to the comparison dataframe
 attach(comp)
 comp_ref<-data.frame(unique_id, Subfamily, genus, species, heterozygosity, reference_genome)
-comp_ref<-comp_ref %>% mutate(distance = case_when(Subfamily == "Felinae" & reference_genome == "Housecat" ~ "Close",
+comp_ref<-comp_ref %>% mutate(distance = case_when(Subfamily == "Felinae" & reference_genome == "Domestic cat" ~ "Close",
                                                    Subfamily == "Pantherinae" & reference_genome == "Tiger" ~ "Close",
                                                    Subfamily == "Felinae" & reference_genome == "Tiger" ~ "Distant",
-                                                   Subfamily == "Pantherinae" & reference_genome == "Housecat" ~ "Distant"))
+                                                   Subfamily == "Pantherinae" & reference_genome == "Domestic cat" ~ "Distant"))
 
 comp_dist<-comp_ref %>% filter(distance == "Distant")
 comp_dist<-rename(comp_dist, heterozygosity_dist = heterozygosity)
@@ -528,7 +531,7 @@ phylotest_ssp$Mass_M <- log10(phylotest_ssp$Mass_M)
 
 
 #Create trait vector at species level
-traits_sp<-phylotest_sp %>% dplyr::select(heterozygosity_cat, Litter_size_sp, Longevity_sp, Gestation_sp, Census_sp, Density_sp)
+traits_sp<-phylotest_sp %>% dplyr::select(heterozygosity_cat, Litter_size_sp, Lifespan_sp, Gestation_sp, Census_sp, Density_sp)
 traits_sp
 
 #Create trait vector at subspecies level
@@ -595,10 +598,11 @@ multiPhylosignal(x = traits_sp, felid_tree_sp, reps = 1000, checkdata = T)
 
 ##At subspecies level
 multiPhylosignal(x = traits_ssp, felid_tree_ssp, reps = 1000, checkdata = T)
-
+#-------------------------------------------------------------------------------
 
 ###Linear regression###
 ###Regressions analyses with all samples
+#-------------------------------------------------------------------------------
 attach(mean_subs)
 
 
@@ -633,11 +637,11 @@ cor(Gestation_sp, mean_felids$heterozygosity_cat, use="pairwise.complete.obs")
 
 
 ####Lifespan
-lm_longevity<-lm(heterozygosity_cat~Longevity_sp, data = mean_felids)
-plot(lm_longevity)
-summary(lm_longevity)
-cor(Longevity_sp, mean_felids$heterozygosity_cat, use="pairwise.complete.obs")
-lifecor<-small_r(cor(Longevity_sp, mean_felids$heterozygosity_cat, use="pairwise.complete.obs")) #The plot function to add correlation to the plot does not work for this variable, so create value here
+lm_lifespan<-lm(heterozygosity_cat~Lifespan_sp, data = mean_felids)
+plot(lm_lifespan)
+summary(lm_lifespan)
+cor(Lifespan_sp, mean_felids$heterozygosity_cat, use="pairwise.complete.obs")
+lifecor<-small_r(cor(Lifespan_sp, mean_felids$heterozygosity_cat, use="pairwise.complete.obs")) #The plot function to add correlation to the plot does not work for this variable, so create value here
 
 
 ###Litter size
@@ -752,18 +756,11 @@ mtext(expression(paste(bold('Census size'))), side = 3, line = -25, outer = TRUE
 plot(lm_census2, which = 5, main = 'g', adj = 0.01, cex.lab = 1.5, cex.axis = 1.5)
 plot(lm_census3, which = 5, main = 'h', adj = 0.01, cex.lab = 1.5, cex.axis = 1.5)
 
-
+#-------------------------------------------------------------------------------
 ###Regressions analyses with non-captive samples only
 #-------------------------------------------------------------------------------
 attach(mean_subs_nc)
 par(mfrow = c(2,2))
-
-###Geographic range
-lm_range_nc<-lm(heterozygosity_cat~Range, data = mean_subs_nc)
-plot(lm_range_nc)
-summary(lm_range_nc)
-cor(Range, heterozygosity_cat, use="pairwise.complete.obs")
-
 
 ###Male mass
 lm_mass_nc<-lm(heterozygosity_cat~log10(Mass_M), data = mean_subs_nc)
@@ -778,6 +775,14 @@ plot(lm_size_nc)
 summary(lm_size_nc)
 cor(Size_M_nt, heterozygosity_cat, use="pairwise.complete.obs")
 
+
+###Geographic range
+lm_range_nc<-lm(heterozygosity_cat~Range, data = mean_subs_nc)
+plot(lm_range_nc)
+summary(lm_range_nc)
+cor(Range, heterozygosity_cat, use="pairwise.complete.obs")
+
+
 attach(mean_felids_nc)
 
 ####Gestation time
@@ -788,19 +793,19 @@ cor(Gestation_sp, heterozygosity_cat, use="pairwise.complete.obs")
 
 
 ####Lifespan
-lm_longevity_nc<-lm(heterozygosity_cat~Longevity_sp, data = mean_felids_nc)
-plot(lm_longevity_nc)
-summary(lm_longevity_nc)
-cor(Longevity_sp, heterozygosity_cat, use="pairwise.complete.obs")
+lm_lifespan_nc<-lm(heterozygosity_cat~Lifespan_sp, data = mean_felids_nc)
+plot(lm_lifespan_nc)
+summary(lm_lifespan_nc)
+cor(Lifespan_sp, heterozygosity_cat, use="pairwise.complete.obs")
 mean_felids_nc$species[10]
 
 
-#Filter longevity for outliers
+#Filter Lifespan for outliers
 datae_lon_filt1_nc<-mean_felids_nc %>% filter(species != "Leopardus pardalis")
-lm_longevity1_nc<-lm(heterozygosity_cat~Longevity_sp, data = datae_lon_filt1_nc)
-plot(lm_longevity1_nc)
-summary(lm_longevity_nc)
-cor(datae_lon_filt1_nc$Longevity_sp, datae_lon_filt1_nc$heterozygosity_cat, use="pairwise.complete.obs")
+lm_lifespan1_nc<-lm(heterozygosity_cat~Lifespan_sp, data = datae_lon_filt1_nc)
+plot(lm_lifespan1_nc)
+summary(lm_lifespan_nc)
+cor(datae_lon_filt1_nc$Lifespan_sp, datae_lon_filt1_nc$heterozygosity_cat, use="pairwise.complete.obs")
 
 
 ###Litter size
@@ -924,6 +929,84 @@ for (i in 1:length(Cenplot_nc$Census_size)){
     Cenplot2_nc$Census_size[i] <- Cenplot2_nc$Census_size[i] * (max(Cenplot_nc$Census_size[Cenplot_nc$Filter == "Unfiltered"])/max(Cenplot_nc$Census_size[Cenplot_nc$Filter == "Filtered"]))
   }
 }
+#-------------------------------------------------------------------------------
+###Linear mixed effect models
+#-------------------------------------------------------------------------------
+#Mass
+lmer_mass<-lmer(formula = heterozygosity_cat~log10(Mass_M) + (1|species), data = mean_subs)
+summary(lmer_mass)
+performance(lmer_mass)
+
+
+#Size
+lmer_size<-lmer(formula = heterozygosity_cat~Size_M_nt + (1|species), data = mean_subs)
+summary(lmer_size)
+performance(lmer_size)
+
+
+#Range
+lmer_range<-lmer(formula = heterozygosity_cat~poly(Range, 3) + (1|species), data = mean_subs)
+summary(lmer_range)
+performance(lmer_range)
+
+
+#Gestation
+lmer_gestation<-lmer(formula = heterozygosity_cat~Gestation_sp + (1|genus), data = mean_felids)
+summary(lmer_gestation)
+performance(lmer_gestation)
+
+
+#Lifespan
+lmer_life<-lmer(formula = heterozygosity_cat~Lifespan_sp + (1|genus), data = mean_felids)
+summary(lmer_life)
+performance(lmer_life)
+
+
+#Litter size
+lmer_litter<-lmer(formula = heterozygosity_cat~Litter_size_sp + (1|genus), data = mean_felids)
+summary(lmer_litter)
+performance(lmer_litter)
+
+#Density (filtered)
+lmer_density_filt<-lmer(formula = heterozygosity_cat~Density + (1|species), data = datae_den_filt)
+summary(lmer_density_filt)
+performance(lmer_density_filt)
+
+
+#Density (conservative)
+lmer_density_con<-lmer(formula = heterozygosity_cat~Density + (1|species), data = datae_den_con)
+summary(lmer_density_con)
+performance(lmer_density_con)
+
+
+#Census size
+lmer_census<-lmer(formula = heterozygosity_cat~Census_size + (1|species), data = datae_cen_filt)
+summary(lmer_census)
+performance(lmer_census)
+
+
+#Range + Density (filtered)
+lmer_mr_filt<-lmer(formula = heterozygosity_cat~Range + Density + (1|species), data = datae_den_filt)
+summary(lmer_mr_filt)
+performance(lmer_mr_filt)
+
+#Range + Density (conservative)
+lmer_mr_con<-lmer(formula = heterozygosity_cat~Range + Density + (1|species), data = datae_den_con)
+summary(lmer_mr_con)
+performance(lmer_mr_con)
+
+#Test for multicollinearity
+vif(lmer_mr_filt)
+vif(lmer_mr_con)
+
+
+#Determine partial R2 filtered
+part_r2_lmer_filt<-partR2(lmer_mr_filt, c("Density", "Range"))
+summary(part_r2_lmer_filt)
+
+#Determine partial R2 conservative
+part_r2_lmer_con<-partR2(lmer_mr_con, c("Density", "Range"))
+summary(part_r2_lmer_con)
 #-------------------------------------------------------------------------------
 
 par(mfrow = c(1,1))
@@ -1156,8 +1239,8 @@ mean_subs2$Mass_M<-log10(mean_subs2$Mass_M)
 
 
 #Create dataframe with only variables of interest
-mr_subs <- mean_subs2 %>% ungroup() %>% dplyr::select(Range, Mass_M, Size_M_nt, Gestation, Litter_size, Longevity, Density, Census_size)
-variable_names <- list("Range", "Male mass", "Male size",  "Gestation time", "Litter size", "Longevity", "Density", "Census size")
+mr_subs <- mean_subs2 %>% ungroup() %>% dplyr::select(Range, Mass_M, Size_M_nt, Gestation, Litter_size, Lifespan, Density, Census_size)
+variable_names <- list("Range", "Male mass", "Male size",  "Gestation time", "Litter size", "Lifespan", "Density", "Census size")
 names(mr_subs) <- variable_names
 
 
@@ -1339,13 +1422,13 @@ ref_plot<-
 ggplot(comp, aes(unique_id, heterozygosity, colour = reference_genome, fill = reference_genome)) +
   geom_point(shape = "circle filled", stroke = 0.8) +
   coord_flip() +
-  scale_color_hue(labels = c("Housecat reference", "Tiger reference")) +
+  scale_color_hue(labels = c("Domestic cat reference", "Tiger reference")) +
   theme_light() +
   theme(legend.position.inside = c(0.9,0.1)) +
   facet_grid(Subfamily ~ ., scales = "free_y", space = "free_y", switch = "y") +
   scale_y_continuous(labels = scales::percent) +
-  scale_colour_manual(values = c("blue", "red"), labels = c("Housecat reference", "Tiger reference")) +
-  scale_fill_manual(values = c("white", "red"), labels = c("Housecat reference", "Tiger reference")) +
+  scale_colour_manual(values = c("blue", "red"), labels = c("Domestic cat reference", "Tiger reference")) +
+  scale_fill_manual(values = c("white", "red"), labels = c("Domestic cat reference", "Tiger reference")) +
   guides(colour = guide_legend("Reference genome", position = "inside", override.aes = list(shape = "circle filled")), fill = guide_legend("Reference genome")) +
   labs(x = "Sample ID", y = "Heterozygosity (%)")
 
@@ -1617,8 +1700,8 @@ gestation_plot<-
   labs(x = expression(Gestation~time~(days)), y = "Heterozygosity", tag = "d")
 
 
-longevity_plot<-
-  ggplot(mean_felids, aes(Longevity_sp, heterozygosity_cat)) + 
+lifespan_plot<-
+  ggplot(mean_felids, aes(Lifespan_sp, heterozygosity_cat)) + 
   stat_poly_eq(use_label(c("p", "n", "adj.R2")), method = "lm") + 
   geom_point() + 
   geom_richtext(label = paste("<i>R<i> =", lifecor), x = 8.05, y = 0.0028, fill = NA, label.colour = NA) + #Correlation added manually as stat_correlation cannot handle R < 0.01
@@ -1767,8 +1850,8 @@ litter_plot_nc<-
   scale_y_continuous(labels = scales::percent) +
   labs(x = expression(Litter~size), y = "Heterozygosity", tag = "e")
 
-longevity_plot_nc_1<-
-  ggplot(mean_felids_nc, aes(Longevity_sp, heterozygosity_cat)) + 
+lifespan_plot_nc_1<-
+  ggplot(mean_felids_nc, aes(Lifespan_sp, heterozygosity_cat)) + 
   stat_poly_eq(use_label(c("p", "n", "adj.R2")), method = "lm") + 
   stat_correlation(label.y = 0.85) +
   geom_point() + 
@@ -1779,8 +1862,8 @@ longevity_plot_nc_1<-
   scale_y_continuous(labels = scales::percent) +
   labs(x = expression(Lifespan~(years)), y = "Heterozygosity", tag = "f")
 
-longevity_plot_nc_2<-
-  ggplot(datae_lon_filt1_nc, aes(Longevity_sp, heterozygosity_cat)) + 
+lifespan_plot_nc_2<-
+  ggplot(datae_lon_filt1_nc, aes(Lifespan_sp, heterozygosity_cat)) + 
   stat_poly_eq(use_label(c("p", "n", "adj.R2")), method = "lm") + 
   stat_correlation(label.y = 0.85) +
   geom_point() + 
@@ -1889,7 +1972,7 @@ ssp_plot
 sp_plot
 (captive_plot + panthera_plot)
 (mean_IUCN_plot|mean_threat_plot)/(mean_IUCN_nc_plot|mean_threat_nc_plot)
-(mass_plot|size_plot)/(range_plot|gestation_plot)/(longevity_plot|litter_plot)/(density_plot|census_plot)
-(mass_plot_nc|size_plot_nc|range_plot_nc|gestation_plot_nc|litter_plot_nc)/(longevity_plot_nc_1|longevity_plot_nc_2|density_plot_nc_1|density_plot_nc_2|density_plot_nc_3)/(census_plot_nc_1|census_plot_nc_2|census_plot_nc_3|census_plot_nc_4)
+(mass_plot|size_plot)/(range_plot|gestation_plot)/(lifespan_plot|litter_plot)/(density_plot|census_plot)
+(mass_plot_nc|size_plot_nc|range_plot_nc|gestation_plot_nc|litter_plot_nc)/(lifespan_plot_nc_1|lifespan_plot_nc_2|density_plot_nc_1|density_plot_nc_2|density_plot_nc_3)/(census_plot_nc_1|census_plot_nc_2|census_plot_nc_3|census_plot_nc_4)
 
 ################################################################################
