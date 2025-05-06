@@ -1,7 +1,6 @@
-shell.prefix("source /data/antwerpen/grp/asvardal/share/hscon5_setup.sh; ")
-# TEST bcftools on Silversides Variant Calling
-# The main entry point of your workflow.
-# After configuring, running snakemake -n in a clone of this repository should successfully execute a dry-run of the workflow.
+### Snakefile for Variant Calling developed by the Svardal lab, with associated config.yaml files
+### Version based off of Els de Keyzer's version of the Snakefile
+### Version adapted by Jonas Lescroart and  Michaël Meeus
 
 import subprocess
 from scipy import stats
