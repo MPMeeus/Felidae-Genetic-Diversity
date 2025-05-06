@@ -13,7 +13,7 @@ ana_dir: /scratch/antwerpen/grp/asvardal/projects/felids/data/AlignmentVariantCa
 results_dir: /scratch/antwerpen/grp/asvardal/projects/felids/variants
 
 
-sample_mt: /scratch/antwerpen/grp/asvardal/projects/felids/data/Metadata_Felidae_Altfor_Final.tsv
+sample_mt: /scratch/antwerpen/grp/asvardal/projects/felids/data/Metadata_Felidae_Altfor.tsv
 chrom_names: /scratch/antwerpen/grp/asvardal/projects/felids/data/reference_genomes/Pti1/chrom_names
 chrom_names_nucl: /scratch/antwerpen/grp/asvardal/projects/felids/data/reference_genomes/Pti1/chrom_names_nucl #Chr1-24 without MT
 
