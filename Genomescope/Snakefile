@@ -1,5 +1,5 @@
 ### Snakefile for using  genomescope, with associated config file config.yaml
-### Pipeline to gain estimates of heterozygosity from full genomes
+### Pipeline to gain estimates of heterozygosity from whole-genome sequencing data
 ### Author Meeus Michaël
 
 
