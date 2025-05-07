@@ -1,5 +1,6 @@
 # Snakemake config file for variant calling
 # Adapted from Els De Keyser's version of the Svardal Lab call script
+# Fca126 domestic cat reference genome
 # 03MAR23
 
 README: Callset of Felidae sp. from NCBI SRA
