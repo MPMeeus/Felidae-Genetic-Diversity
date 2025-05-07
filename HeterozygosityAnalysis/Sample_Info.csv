@@ -1,0 +1,101 @@
+unique_id;genus;sp;ssp;ssp_old;species;Species;Captive;ssp_certainty
+Aci_jub_AJU173;Acinonyx;jubatus;jubatus;raineyi;Acinonyx jubatus;Acinonyx jubatus jubatus;No;Certain
+Aci_jub_Chewbacca;Acinonyx;jubatus;jubatus;;Acinonyx jubatus;Acinonyx jubatus jubatus;No;Certain
+Aci_jub_DZ_ID42;Acinonyx;jubatus;hecki;;Acinonyx jubatus;Acinonyx jubatus hecki;No;Certain
+Aci_jub_EH_ID75;Acinonyx;jubatus;hecki;;Acinonyx jubatus;Acinonyx jubatus hecki;No;Certain
+Aci_jub_Rico;Acinonyx;jubatus;jubatus;;Acinonyx jubatus;Acinonyx jubatus jubatus;Yes;Uncertain
+Car_car_CarCar1.0;Caracal;caracal;caracal;;Caracal caracal;Caracal caracal caracal;Yes;Uncertain
+Cat_bad_PBA2;Catopuma;badia;;;Catopuma badia;Catopuma badia;No;Certain
+Cat_tem_PTE8;Catopuma;temminckii;moormensis;;Catopuma temminckii;Catopuma temminckii moormensis;Yes;Uncertain
+Fel_bie_FBIP0004;Felis;bieti;;;Felis bieti;Felis bieti;Yes;Certain
+Fel_cha_Fch-1a;Felis;chaus;affinis;;Felis chaus;Felis chaus affinis;Yes;Uncertain
+Fel_lyb_FLI3;Felis;lybica;ornata;;Felis lybica;Felis lybica ornata;No;Certain
+Fel_lyb_FLI4;Felis;lybica;ornata;;Felis lybica;Felis lybica ornata;No;Certain
+Fel_lyb_FSI47;Felis;lybica;lybica;;Felis lybica;Felis lybica lybica;No;Certain
+Fel_mar_FMA;Felis;margarita;thinobia;;Felis margarita;Felis margarita thinobia;Yes;Uncertain
+Fel_mar_FMA8;Felis;margarita;thinobia;;Felis margarita;Felis margarita thinobia;No;Uncertain
+Fel_nig_FNig_DNA725;Felis;nigripes;;;Felis nigripes;Felis nigripes;Yes;Certain
+Fel_sil_ex38_E1;Felis;silvestris;silvestris;;Felis silvestris;Felis silvestris silvestris;No;Certain
+Her_yag_HJA5;Herpailurus;yagouaroundi;;;Herpailurus yagouaroundi;Herpailurus yagouaroundi;Yes;Certain
+Her_yag_PumYag;Herpailurus;yagouaroundi;;;Herpailurus yagouaroundi;Herpailurus yagouaroundi;Yes;Certain
+Leo_col_LCO3;Leopardus;colocola;braccatus;;Leopardus colocola;Leopardus colocola braccatus;Yes;Uncertain
+Leo_col_Lcol1CL;Leopardus;colocola;colocola;;Leopardus colocola;Leopardus colocola colocola;No;Certain
+Leo_emi_LTI6;Leopardus;emiliae;;;Leopardus emiliae;Leopardus emiliae;Yes;Certain
+Leo_geo_OGE3;Leopardus;geoffroyi;;;Leopardus geoffroyi;Leopardus geoffroyi;Yes;Certain
+Leo_gui_Lgui1CL;Leopardus;guigna;tigrillo;;Leopardus guigna;Leopardus guigna tigrillo;No;Certain
+Leo_jac_LJA-1;Leopardus;jacobita;;;Leopardus jacobita;Leopardus jacobita;No;Certain
+Leo_par_LP339;Leopardus;pardalis;mitis;;Leopardus pardalis;Leopardus pardalis mitis;No;Certain
+Leo_par_LPA6;Leopardus;pardalis;mitis;;Leopardus pardalis;Leopardus pardalis mitis;Yes;Uncertain
+Leo_par_wmLPA-1;Leopardus;pardalis;pardalis;;Leopardus pardalis;Leopardus pardalis pardalis;No;Certain
+Leo_tig_bLgt652;Leopardus;guttulus;;;Leopardus guttulus;Leopardus guttulus;No;Certain
+Leo_tig_bLti242;Leopardus;emiliae;;emiliae;Leopardus emiliae;Leopardus emiliae;No;Certain
+Leo_tig_LTI13;Leopardus;tigrinus;oncilla;;Leopardus tigrinus;Leopardus tigrinus oncilla;No;Certain
+Leo_tig_LTI32451;Leopardus;tigrinus;pardinoides;;Leopardus tigrinus;Leopardus tigrinus pardinoides;No;Certain
+Leo_tig_LTI32454;Leopardus;tigrinus;pardinoides;;Leopardus tigrinus;Leopardus tigrinus pardinoides;No;Certain
+Leo_wie_398-Wiedii;Leopardus;wiedii;wiedii;;Leopardus wiedii;Leopardus wiedii wiedii;No;Certain
+Lep_ser_PSE16;Leptailurus;serval;serval;;Leptailurus serval;Leptailurus serval serval;Yes;Uncertain
+Lyn_can_LCA3;Lynx;canadensis;;;Lynx canadensis;Lynx canadensis;Yes;Certain
+Lyn_can_mLynCan4;Lynx;canadensis;;;Lynx canadensis;Lynx canadensis;No;Certain
+Lyn_lyn_LYNX23;Lynx;lynx;lynx;;Lynx lynx;Lynx lynx lynx;Yes;Uncertain
+Lyn_par_LYNX9;Lynx;pardinus;;;Lynx pardinus;Lynx pardinus;No;Certain
+Lyn_ruf_LRU30;Lynx;rufus;rufus;;Lynx rufus;Lynx rufus rufus;No;Certain
+Lyn_ruf_mLynRuf1.p;Lynx;rufus;fasciatus;;Lynx rufus;Lynx rufus fasciatus;No;Certain
+Neo_dia_diardi2;Neofelis;diardi;borneensis;;Neofelis diardi;Neofelis diardi borneensis;No;Certain
+Neo_neb_nebulosa2;Neofelis;nebulosa;;;Neofelis nebulosa;Neofelis nebulosa;Yes;Certain
+Neo_neb_Rhu;Neofelis;nebulosa;;;Neofelis nebulosa;Neofelis nebulosa;Yes;Certain
+Oto_man_Katya_Oman10;Otocolobus;manul;manul;;Otocolobus manul;Otocolobus manul manul;Yes;Uncertain
+Pan_leo_Atul;Panthera;leo;leo;persica;Panthera leo;Panthera leo leo (Indian);Yes;Certain
+Pan_leo_Brooke;Panthera;leo;melanochaita;;Panthera leo;Panthera leo melanochaita;Yes;Uncertain
+Pan_leo_Hubert;Panthera;leo;melanochaita;krugeri;Panthera leo;Panthera leo melanochaita;Yes;Certain
+Pan_leo_SnowGirl;Panthera;leo;melanochaita;;Panthera leo;Panthera leo melanochaita;Yes;Uncertain
+Pan_leo_SunDol;Panthera;leo;melanochaita;;Panthera leo;Panthera leo melanochaita;Yes;Uncertain
+Pan_onc_bPon052;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon309;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon378;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon395;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon411;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon460;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_bPon462;Panthera;onca;;;Panthera onca;Panthera onca;No;Certain
+Pan_onc_DNA512;Panthera;onca;;;Panthera onca;Panthera onca;Yes;Certain
+Pan_onc_PanOnc_BS21;Panthera;onca;;;Panthera onca;Panthera onca;Yes;Certain
+Pan_par_AmurLeopard_1;Panthera;pardus;orientalis;;Panthera pardus;Panthera pardus orientalis (Amur);No;Certain
+Pan_par_AmurLeopard_2;Panthera;pardus;orientalis;;Panthera pardus;Panthera pardus orientalis (Amur);No;Certain
+Pan_par_Bhagya;Panthera;pardus;fusca;;Panthera pardus;Panthera pardus fusca;No;Certain
+Pan_par_Maewha;Panthera;pardus;orientalis;;Panthera pardus;Panthera pardus orientalis (Amur);Yes;Certain
+Pan_par_Namibia;Panthera;pardus;pardus;;Panthera pardus;Panthera pardus pardus;No;Certain
+Pan_par_Zambia;Panthera;pardus;pardus;;Panthera pardus;Panthera pardus pardus;No;Certain
+Pan_tig_AMU4;Panthera;tigris;tigris;altaica;Panthera tigris;Panthera tigris tigris (Amur);No;Certain
+Pan_tig_AMU9;Panthera;tigris;tigris;altaica;Panthera tigris;Panthera tigris tigris (Amur);No;Certain
+Pan_tig_BEN_CI15;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_BEN_CI18;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_BEN_CI3;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_BEN_NE4;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_BEN_NW10;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_BEN_SU3;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);No;Certain
+Pan_tig_HwaRang;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);Yes;Certain
+Pan_tig_Kylo;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);Yes;Uncertain
+Pan_tig_MAL1;Panthera;tigris;tigris;jacksoni;Panthera tigris;Panthera tigris tigris (Malayan);No;Certain
+Pan_tig_MAL2;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Malayan);No;Certain
+Pan_tig_SeGang;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Bengal);Yes;Uncertain
+Pan_tig_SUM1;Panthera;tigris;sondaica;sumatrae;Panthera tigris;Panthera tigris sondaica;Yes;Certain
+Pan_tig_SUM2;Panthera;tigris;sondaica;sumatrae;Panthera tigris;Panthera tigris sondaica;Yes;Certain
+Pan_tig_TaeGeuk;Panthera;tigris;tigris;;Panthera tigris;Panthera tigris tigris (Amur);Yes;Certain
+Pan_unc_Kiara_DNA729;Panthera;uncia;;;Panthera uncia;Panthera uncia;Yes;Certain
+Pan_unc_SDZ_SL_1;Panthera;uncia;;;Panthera uncia;Panthera uncia;Yes;Certain
+Pan_unc_SnowLeopard;Panthera;uncia;;;Panthera uncia;Panthera uncia;Yes;Certain
+Par_mar_PMA5;Pardofelis;marmorata;longicaudata;;Pardofelis marmorata;Pardofelis marmorata longicaudata;Yes;Certain
+Pri_ben_LeopardCat;Prionailurus;bengalensis;euptilurus;;Prionailurus bengalensis;Prionailurus bengalensis euptilurus (Amur);No;Certain
+Pri_ben_Tuo;Prionailurus;bengalensis;euptilurus;euptilura;Prionailurus bengalensis;Prionailurus bengalensis euptilurus (Amur);Yes;Certain
+Pri_pla_IPL6;Prionailurus;planiceps;;;Prionailurus planiceps;Prionailurus planiceps;Yes;Certain
+Pri_rub_PRU1;Prionailurus;rubiginosus;rubiginosus;;Prionailurus rubiginosus;Prionailurus rubiginosus rubiginosus;Yes;Uncertain
+Pri_viv_DNA430;Prionailurus;viverrinus;viverrinus;;Prionailurus viverrinus;Prionailurus viverrinus viverrinus;Yes;Certain
+Pri_viv_PVI_139;Prionailurus;viverrinus;viverrinus;;Prionailurus viverrinus;Prionailurus viverrinus viverrinus;Yes;Certain
+Pri_viv_PVI2;Prionailurus;viverrinus;viverrinus;;Prionailurus viverrinus;Prionailurus viverrinus viverrinus;Yes;Certain
+Pum_con_BR338_1015;Puma;concolor;concolor;;Puma concolor;Puma concolor concolor;No;Certain
+Pum_con_CYP47_1013;Puma;concolor;cougar;coryi;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_EVG21_1028;Puma;concolor;cougar;coryi;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_FL51_CYP51_1014;Puma;concolor;cougar;coryi;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_SC36_Marlon;Puma;concolor;cougar;;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_SMM12_1020;Puma;concolor;cougar;;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_SMM13_1005;Puma;concolor;cougar;;Puma concolor;Puma concolor cougar;No;Certain
+Pum_con_YNP198;Puma;concolor;cougar;;Puma concolor;Puma concolor cougar;No;Certain

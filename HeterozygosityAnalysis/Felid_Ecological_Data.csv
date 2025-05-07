@@ -1,0 +1,129 @@
+index;Species;Region;Subfamily;Lineage;IUCN_status;Pop_trend;Size_M_t;Size_F_t;Size_M_nt;Size_F_nt;Mass_M;Mass_F;Gestation;Litter_size;Lifespan;Census_size;Density;Range;Size_M_nt_sp;Mass_M_sp;Gestation_sp;Litter_size_sp;Lifespan_sp;Census_sp;Density_sp;Range_sp
+;Acinonyx jubatus;;Felinae;Puma;Vulnerable;Decreasing;189.5;196;121.75;128.25;40.0625;36.875;92;4.5;13;6097;0.18;5067579;121.75;40.0625;92;4.5;13;6097;0.18;5067579
+30;Acinonyx jubatus hecki;Sahara;Felinae;Puma;Critically Endangered;Decreasing;151;151;91;91;32.5;32.5;;;;419;0.023;1963422;121.75;40.0625;92;4.5;13;6097;0.18;5067579
+28;Acinonyx jubatus jubatus;South and East Africa;Felinae;Puma;Vulnerable;Decreasing;199;191.5;130;122.5;46.25;36;;;;5097;0.43;2557147;121.75;40.0625;92;4.5;13;6097;0.18;5067579
+29;Acinonyx jubatus soemmeringii;Sudan;Felinae;Puma;Vulnerable;Decreasing;197.5;197.5;125;125;50;50;;;;531;0.1;261622;121.75;40.0625;92;4.5;13;6097;0.18;5067579
+31;Acinonyx jubatus venaticus;Asia;Felinae;Puma;Critically Endangered;Decreasing;210.5;244;141;174.5;31.5;29;;;;50;;281729;121.75;40.0625;92;4.5;13;6097;0.18;5067579
+;Caracal aurata;;Felinae;Caracal;Vulnerable;Decreasing;109.1;100.1;78;69;11;7.2;75;2;12;;10.5;4155930;78;11;75;2;12;;10.5;4155930
+70;Caracal aurata aurata;;Felinae;Caracal;Vulnerable;Decreasing;109;100;78;69;;7.2;;;;;;3572461;78;11;75;2;12;;10.5;4155930
+71;Caracal aurata celidogaster;;Felinae;Caracal;Vulnerable;Decreasing;109.2;100.2;78;69;;7.2;;;;;;583467;78;11;75;2;12;;10.5;4155930
+;Caracal caracal;;Felinae;Caracal;Least Concern;Unknown;110.75;101.75;85.16666667;76.16666667;12.78333333;10.31666667;80.33333333;2.5;18;;35;17386849;85.16666667;12.78333333;80.33333333;2.5;18;;35;17386849
+67;Caracal caracal caracal;;Felinae;Caracal;Least Concern;Unknown;119;114;91.5;86.5;17.6;11.45;;;;;;8575338;85.16666667;12.78333333;80.33333333;2.5;18;;35;17386849
+68;Caracal caracal nubicus;;Felinae;Caracal;Least Concern;Unknown;100.5;100.5;75.5;75.5;11.95;11.95;;;;;;5861550;85.16666667;12.78333333;80.33333333;2.5;18;;35;17386849
+69;Caracal caracal schmitzi;;Felinae;Caracal;Near Threatened;Unknown;112.75;90.75;88.5;66.5;8.8;7.55;;;;;;2949959;85.16666667;12.78333333;80.33333333;2.5;18;;35;17386849
+99;Catopuma badia;;Felinae;Bay cat;Endangered;Decreasing;95.5;95.5;59.5;59.5;4;4;;;;3300;1;271849;59.5;4;;;;3300;1;271849
+;Catopuma temminckii;;Felinae;Bay cat;Near Threatened;Decreasing;128.125;122.125;81.75;75.75;11.425;8.3;79.5;1.5;17;;;340740;81.75;11.425;79.5;1.5;17;;;340740
+98;Catopuma temminckii moormensis;;Felinae;Bay cat;Near Threatened;Decreasing;142.25;130.25;92;80;13.85;8.5;;;;;;292575;81.75;11.425;79.5;1.5;17;;;340740
+97;Catopuma temminckii temminckii;;Felinae;Bay cat;Near Threatened;Decreasing;114;114;71.5;71.5;9;8.1;;;;;;48164;81.75;11.425;79.5;1.5;17;;;340740
+78;Felis bieti;;Felinae;Wildcat;Vulnerable;Decreasing;104;104;72;72;7.25;7.25;60;3;;24717.5;5.5;945036;72;7.25;60;3;;24717.5;5.5;945036
+74;Felis catus;;Felinae;Wildcat;Domesticated;;77;77;50;50;5.5;3.5;64;4;12.5;;;;50;5.5;64;4;12.5;;;
+;Felis chaus;;Felinae;Wildcat;Least Concern;Decreasing;90.16666667;90.16666667;65.66666667;65.66666667;8.833333333;7.733333333;65.5;2.5;9.5;10807;57.5;7423422;65.66666667;8.833333333;65.5;2.5;9.5;10807;57.5;7423422
+80;Felis chaus affinis;;Felinae;Wildcat;Least Concern;Decreasing;85;85;62;62;8.5;8.5;;;;;;3739355;65.66666667;8.833333333;;2.5;;10807;57.5;7423422
+79;Felis chaus chaus;;Felinae;Wildcat;Least Concern;Decreasing;95;95;68;68;9;5.7;;;;;;2221485;65.66666667;8.833333333;;2.5;;10807;57.5;7423422
+81;Felis chaus fulvidina;;Felinae;Wildcat;Critically Endangered;Decreasing;90.5;90.5;67;67;9;9;;;;;;1462579;65.66666667;8.833333333;;2.5;;10807;57.5;7423422
+;Felis lybica;;Felinae;Wildcat;Least Concern;Unknown;82.98333333;78.33333333;53.16666667;48.5;4.266666667;3.616666667;61;3;16;;5.5;29598873;53.16666667;4.266666667;61;3;16;;5.5;29598873
+76;Felis lybica cafra;;Felinae;Wildcat;Least Concern;Unknown;90.95;84.5;60.5;54;5.1;3.95;;;;;;6905128;53.16666667;4.266666667;61;3;16;;5.5;29598873
+75;Felis lybica lybica;;Felinae;Wildcat;Least Concern;Unknown;76.5;76.5;45.5;45.5;4.2;4.2;;;;;;15158422;53.16666667;4.266666667;61;3;16;;5.5;29598873
+77;Felis lybica ornata;;Felinae;Wildcat;Least Concern;Unknown;81.5;74;53.5;46;3.5;2.7;;;;;;7535319;53.16666667;4.266666667;61;3;16;;5.5;29598873
+;Felis margarita;;Felinae;Wildcat;Least Concern;Unknown;74.5;70.5;47;43;2.3875;1.7;63;3;;40896;2.9;4632327;47;2.3875;63;3;;40896;2.9;4632327
+82;Felis margarita margarita;;Felinae;Wildcat;Least Concern;Unknown;69.75;66.75;43.5;40.5;2.525;1.6;;;;;;2714355;47;2.3875;63;3;;40896;2.9;4632327
+83;Felis margarita thinobia;;Felinae;Wildcat;Least Concern;Unknown;79.25;74.25;50.5;45.5;2.25;1.8;;;;;;1917966;47;2.3875;63;3;;40896;2.9;4632327
+84;Felis nigripes;;Felinae;Wildcat;Vulnerable;Decreasing;60.5;54;44.5;38;2;1.3;65.5;2;7;13867;3;1964483;44.5;2;65.5;2;7;13867;3;1964483
+;Felis silvestris;;Felinae;Wildcat;Least Concern;Unknown;100;90.5;68;58.5;6;5.05;67.5;3;10;210000;10;1928504;68;6;67.5;3;10;210000;10;1928504
+73;Felis silvestris caucasica;;Felinae;Wildcat;Least Concern;Unknown;101.5;91;69;58.5;6.6;6.6;;;;;;330948;68;6;67.5;3;10;210000;10;1928504
+72;Felis silvestris silvestris;;Felinae;Wildcat;Least Concern;Unknown;98.5;90;67;58.5;5.4;3.5;;;;;;1597554;68;6;67.5;3;10;210000;10;1928504
+26;Herpailurus yagouaroundi;;Felinae;Puma;Least Concern;Decreasing;113.25;101.25;70;58;5.3;5.25;73.5;2;15;;8.7;15024348;70;5.3;73.5;2;15;;8.7;15024348
+;Leopardus colocola;;Felinae;Ocelot;Near Threatened;Decreasing;87.88571429;82.31428571;59.81428571;54.24285714;3.02;3.02;82.5;2;13.5;;12.5;4826103;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+46;Leopardus colocola braccatus;;Felinae;Ocelot;Near Threatened;Decreasing;79;79;51;51;3.3;3.3;;;;;9;1378825;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+;Leopardus colocola budini;;Felinae;Ocelot;Near Threatened;Decreasing;90.5;79.5;65;54;2.5;2.5;;;;;76;;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+44;Leopardus colocola colocola;;Felinae;Ocelot;Vulnerable;Decreasing;92.6;92.6;61.85;61.85;3;3;;;;;;158015;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+49;Leopardus colocola garleppi;;Felinae;Ocelot;Near Threatened;Decreasing;89.25;75.25;63;49;;;;;;;76;1664982;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+47;Leopardus colocola munoai;;Felinae;Ocelot;Near Threatened;Decreasing;82;82;53;53;3.3;3.3;;;;;9;343713;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+48;Leopardus colocola pajeros;;Felinae;Ocelot;Near Threatened;Decreasing;90.5;79.5;65;54;2.5;2.5;;;;;14;1280566;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+;Leopardus colocola wolfsohni;;Felinae;Ocelot;Vulnerable;Decreasing;92.6;92.6;61.85;61.85;3;3;;;;;;;59.81428571;3.02;82.5;2;13.5;;12.5;4826103
+41;Leopardus emiliae;;Felinae;Ocelot;Vulnerable;;75.25;75.25;46.25;46.25;2.4;2.4;69;1;18;3200;8.4;3399684;46.25;2.4;69;1;18;3200;8.4;9510343
+37;Leopardus geoffroyi;;Felinae;Ocelot;Least Concern;Stable;86.25;86.25;54.25;54.25;4.8;3.6;75;2;14;;28.4;3549302;54.25;4.8;75;2;14;;28.4;3549302
+;Leopardus guigna;;Felinae;Ocelot;Vulnerable;Decreasing;69.5;65.35;47.25;43.1;2.3;1.975;75;2;11;98072;114.25;318469.7258;47.25;2.3;75;2;11;98072;114.25;318469.7258
+38;Leopardus guigna guigna;;Felinae;Ocelot;Vulnerable;Decreasing;67.75;64.25;45.5;42;2.25;2.25;;;;71832;;211279;47.25;2.3;75;2;11;98072;114.25;318469.7258
+39;Leopardus guigna tigrillo;;Felinae;Ocelot;Vulnerable;Decreasing;71.25;66.45;49;44.2;2.35;1.7;;;;26240;;107190;47.25;2.3;75;2;11;98072;114.25;318469.7258
+40;Leopardus guttulus;;Felinae;Ocelot;Vulnerable;Decreasing;74.25;74.25;45.25;45.25;2.8;2.8;76.5;1;;9070.5;3;2167101;45.25;2.8;76.5;1;;9070.5;3;2167101
+51;Leopardus jacobita;;Felinae;Ocelot;Endangered;Decreasing;115.5;115.5;71;71;4.25;4.25;80;1.5;;2067;2;617800;71;4.25;80;1.5;;2067;2;617800
+;Leopardus pardalis;;Felinae;Ocelot;Least Concern;Decreasing;110.75;110.75;74.75;74.75;11.125;8.9;77;1.5;10;60000;31.1;14723237;74.75;11.125;77;1.5;10;60000;31.1;14723237
+33;Leopardus pardalis mitis;South;Felinae;Ocelot;Least Concern;Decreasing;118.25;118.25;83;83;11.25;8.8;;;;;;13651849;74.75;11.125;77;1.5;10;60000;31.1;14723237
+32;Leopardus pardalis pardalis;North;Felinae;Ocelot;Least Concern;Decreasing;103.25;103.25;66.5;66.5;11;9;;;;;;1071387;74.75;11.125;77;1.5;10;60000;31.1;14723237
+;Leopardus tigrinus;;Felinae;Ocelot;Vulnerable;Decreasing;79.575;79.575;50.45;50.45;2.4;2.4;69;1;18;14355;5.17;9510343;50.45;2.4;69;1;18;14355;5.17;9510343
+43;Leopardus tigrinus oncilla;;Felinae;Ocelot;Vulnerable;Decreasing;79.65;79.65;50.4;50.4;2.4;2.4;;;;;;16303;50.45;2.4;69;1;18;14355;5.17;9510343
+42;Leopardus tigrinus pardinoides;;Felinae;Ocelot;Vulnerable;Decreasing;79.5;79.5;50.5;50.5;2.4;2.4;;;;;;1140435;50.45;2.4;69;1;18;14355;5.17;9510343
+;Leopardus wiedii;;Felinae;Ocelot;Near Threatened;Decreasing;97.5;97.16666667;57.16666667;56.83333333;3.45;3.216666667;80;1;18;;3;12437863;57.16666667;3.45;80;1;18;;3;12437863
+36;Leopardus wiedii glauculus;Central America;Felinae;Ocelot;Near Threatened;Decreasing;101.5;97;60.5;56;3.75;3.75;;;;;;1146342;57.16666667;3.45;80;1;18;;3;12437863
+35;Leopardus wiedii vigens;;Felinae;Ocelot;Near Threatened;Decreasing;98.5;100.5;57.5;59.5;3;3;;;;;;4397547;57.16666667;3.45;80;1;18;;3;12437863
+34;Leopardus wiedii wiedii;;Felinae;Ocelot;Near Threatened;Decreasing;92.5;94;53.5;55;3.6;2.9;;;;;;9179347;57.16666667;3.45;80;1;18;;3;12437863
+;Leptailurus serval;;Felinae;Caracal;Least Concern;Stable;111.4;106.375;81.4;76.125;11.25;8.7;72.16666667;2;12;;12.17;12818515;81.4;11.25;72.16666667;2;12;;12.17;12818515
+66;Leptailurus serval constantina;;Felinae;Caracal;Critically Endangered;Stable;114.2;;84.7;;12;;;;;375;2.65;3800934;81.4;11.25;72.16666667;2;12;;12.17;12818515
+65;Leptailurus serval lipostictus;;Felinae;Caracal;Least Concern;Stable;105.5;105.5;76;76;10.5;8;;;;;9.17;3564635;81.4;11.25;72.16666667;2;12;;12.17;12818515
+64;Leptailurus serval serval;;Felinae;Caracal;Least Concern;Stable;114.5;107.25;83.5;76.25;11.25;9.4;;;;;26.28;5452943;81.4;11.25;72.16666667;2;12;;12.17;12818515
+85;Lynx canadensis;;Felinae;Lynx;Least Concern;Stable;101.5;95.25;92.5;86.25;10.5;8.5;65;4.5;15;;23;8283656;92.5;10.5;65;4.5;15;;23;8283656
+;Lynx lynx;;Felinae;Lynx;Least Concern;Stable;113.75;111.3;95.65;93.2;21.65833333;20.43333333;69.75;2.5;20.5;69010;2.68;20735822;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+91;Lynx lynx balcanicus;;Felinae;Lynx;Critically Endangered;Stable;;;;;15.5;15.5;;;;39.5;;58976;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+90;Lynx lynx carpathicus;;Felinae;Lynx;Least Concern;Stable;113;106.5;96;89.5;20.35;18;;;;2500;;218919;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+92;Lynx lynx dinniki;;Felinae;Lynx;Least Concern;Stable;105.25;105.5;87.75;88;17.1;17.1;;;;2400;;696738;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+89;Lynx lynx isabellinus;;Felinae;Lynx;Least Concern;Stable;123;123;105;105;28;28;;;;37000;;3375221;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+87;Lynx lynx lynx;;Felinae;Lynx;Least Concern;Stable;109;103;92;86;19.5;14.5;;;;28610;;7208116;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+88;Lynx lynx wrangeli;;Felinae;Lynx;Least Concern;Stable;118.5;118.5;97.5;97.5;29.5;29.5;;;;22280;;9177844;95.65;21.65833333;69.75;2.5;20.5;69010;2.68;20735822
+86;Lynx pardinus;;Felinae;Lynx;Endangered;Increasing;92.25;85.75;78;71.5;10.8;9.55;;2.5;;1111;6.67;1196;78;10.8;;2.5;;1111;6.67;1196
+;Lynx rufus;;Felinae;Lynx;Least Concern;Stable;92.25;83.625;78.125;69.5;9.4875;7.6875;64.75;3.5;13.5;2961978.5;30.42;9908589;78.125;9.4875;64.75;3.5;13.5;2961978.5;30.42;9908589
+95;Lynx rufus esquinapae;;Felinae;Lynx;Least Concern;Stable;77.75;77.75;64;64;8.5;8.5;;;;;27.5;1194884;78.125;9.4875;64.75;3.5;13.5;2961978.5;30.42;9908589
+94;Lynx rufus fasciatus;;Felinae;Lynx;Least Concern;Stable;96.6;91.6;82;77;10;6.25;;;;;36.67;3604290;78.125;9.4875;64.75;3.5;13.5;2961978.5;30.42;9908589
+96;Lynx rufus oaxacensis;;Felinae;Lynx;Least Concern;Stable;77.75;77.75;64;64;8.5;8.5;;;;;27.5;249597;78.125;9.4875;64.75;3.5;13.5;2961978.5;30.42;9908589
+93;Lynx rufus rufus;;Felinae;Lynx;Least Concern;Stable;116.9;87.4;102.5;73;10.95;7.5;;;;;30;4859815;78.125;9.4875;64.75;3.5;13.5;2961978.5;30.42;9908589
+;Neofelis diardi;;Pantherinae;Panthera;Vulnerable;Decreasing;182;174;104;87;23;12;89.5;1.5;14;6795;1.9;516876;104;23;89.5;1.5;14;6795;1.9;516876
+23;Neofelis diardi borneensis;;Pantherinae;Panthera;Endangered;Decreasing;182;174;104;87;23;12;;;;5700;2.6;441631;104;23;89.5;1.5;14;6795;1.9;516876
+22;Neofelis diardi diardi;;Pantherinae;Panthera;Endangered;Decreasing;182;174;104;87;23;12;;;;1095;1.2;75244;104;23;89.5;1.5;14;6795;1.9;516876
+21;Neofelis nebulosa;;Pantherinae;Panthera;Vulnerable;Decreasing;161.25;161.25;88.25;88.25;17;12.5;93;2;16;6960;1.48;1677900;88.25;17;93;2;16;6960;1.48;1677900
+;Otocolobus manul;;Felinae;Leopard cat;Least Concern;Decreasing;81.75;81.75;55.25;55.25;3.45;3.45;70.5;4;9;69600;6;7930162;55.25;3.45;70.5;4;9;69600;6;7930162
+52;Otocolobus manul manul;;Felinae;Leopard cat;Near Threatened;Decreasing;83;83;55;55;3.4;3.4;;;;;;6421277;55.25;3.45;70.5;4;9;69600;6;7930162
+53;Otocolobus manul nigripectus;;Felinae;Leopard cat;Near Threatened;Decreasing;80.5;80.5;55.5;55.5;3.5;3.5;;;;;;1508884;55.25;3.45;70.5;4;9;69600;6;7930162
+;Panthera leo;;Pantherinae;Panthera;Vulnerable;Decreasing;276;242.25;197;158;186.6666667;117;110;2.5;16;35581;11.3;1326224;197;186.6666667;110;2.5;16;35581;11.3;1326224
+1;Panthera leo leo (African);;Pantherinae;Panthera;Critically Endangered;Decreasing;265.5;;;;169;115;;;;2899;;400624;197;186.6666667;110;2.5;16;35581;11.3;1326224
+2;Panthera leo leo (Indian);;Pantherinae;Panthera;Endangered;Stable;293;233;205;145;175;115;;;;674;;3765;197;186.6666667;110;2.5;16;35581;11.3;1326224
+3;Panthera leo melanochaita;;Pantherinae;Panthera;Vulnerable;Decreasing;269.5;251.5;189;171;216;121;;;;32008;;1306425;197;186.6666667;110;2.5;16;35581;11.3;1326224
+19;Panthera onca;;Pantherinae;Panthera;Near Threatened;Decreasing;252;229.5;190;167.5;97;68;96.5;2;15;64000;4.76;9140717;190;97;96.5;2;15;64000;4.76;9140717
+;Panthera pardus;;Pantherinae;Panthera;Vulnerable;Decreasing;211.0555556;201.1666667;128.3333333;118.4444444;50.11111111;35.16666667;98.38888889;2;17;;8.47;6866566;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+15;Panthera pardus delacouri;(Indochinese);Pantherinae;Panthera;Endangered;Decreasing;200;184;122;106;46;27.5;;;;2500;;139884;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+13;Panthera pardus fusca;(Indian);Pantherinae;Panthera;Vulnerable;Decreasing;223.5;203;132.5;112;60;37.5;;;;13000;;1158182;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+14;Panthera pardus kotiya;(Sri Lanka);Pantherinae;Panthera;Endangered;Decreasing;216.5;196;129.5;109;66.5;36.5;;;;825;;24789;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+16;Panthera pardus melas;;Pantherinae;Panthera;Critically Endangered;Decreasing;171.5;181;99.5;109;45;45;;;;250;;21201;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+11;Panthera pardus nimr;;Pantherinae;Panthera;Critically Endangered;Decreasing;191.5;176.5;118;103;30;20.75;;;;123;;21951;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+17;Panthera pardus orientalis (Amur);(Amur);Pantherinae;Panthera;Critically Endangered;Decreasing;227.5;227.5;139;139;46;33.75;;;;60;;12217;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+18;Panthera pardus orientalis (North Chinese);(North Chinese);Pantherinae;Panthera;Critically Endangered;Decreasing;211;211;128.5;128.5;42;42;;;;500;;123767;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+10;Panthera pardus pardus;(Africa);Pantherinae;Panthera;Vulnerable;Decreasing;209.5;183;137.5;111;50;30.5;;;;;;6866565;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+12;Panthera pardus tulliana;(Persian);Pantherinae;Panthera;Endangered;Decreasing;248.5;248.5;148.5;148.5;65.5;43;;;;900;;939388;128.3333333;50.11111111;98.38888889;2;17;;8.47;6866566
+;Panthera tigris;;Pantherinae;Panthera;Endangered;Decreasing;293.1666667;264.1666667;208.3333333;179.3333333;165.5;110.4166667;99.5;2.5;15;4652;8.65;1824212;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+9;Panthera tigris sondaica;;Pantherinae;Panthera;Critically Endangered;Decreasing;245;220;182.5;157.5;120;92.5;;;;400;;154846;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+5;Panthera tigris tigris (Amur);;Pantherinae;Panthera;Endangered;Decreasing;335.5;270.5;235;170;243;160;;;;400;;483422;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+4;Panthera tigris tigris (Bengal);;Pantherinae;Panthera;Endangered;Decreasing;294.5;263.5;197;166;217.5;130;;;;1700;;561050;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+7;Panthera tigris tigris (Indochinese);;Pantherinae;Panthera;Endangered;Decreasing;299.5;274.5;214.5;189.5;172.5;115;;;;850;;549197;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+8;Panthera tigris tigris (Malayan);;Pantherinae;Panthera;Critically Endangered;Decreasing;346.5;326.5;259;239;88;56;;;;200;;75691;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+6;Panthera tigris tigris (South China);;Pantherinae;Panthera;Extinct in the wild;Decreasing;238;230;162;154;152;109;;;;0;;0;208.3333333;165.5;99.5;2.5;15;4652;8.65;1824212
+20;Panthera uncia;;Pantherinae;Panthera;Vulnerable;Decreasing;204.5;204.5;114.5;114.5;46;38.5;97.5;2;15;7721.5;2;3508795;114.5;46;97.5;2;15;7721.5;2;3508795
+;Pardofelis marmorata;;Felinae;Bay cat;Near Threatened;Decreasing;107.325;107.325;54.125;54.125;3.625;3.625;74;2.5;12;15000;9.11;1404493;54.125;3.625;74;2.5;12;15000;9.11;1404493
+101;Pardofelis marmorata longicaudata;;Felinae;Bay cat;Near Threatened;Decreasing;97.5;97.5;52.5;52.5;3.5;3.5;;;;;5.86;856102;54.125;3.625;74;2.5;12;15000;9.11;1404493
+100;Pardofelis marmorata marmorata;;Felinae;Bay cat;Near Threatened;Decreasing;117.15;117.15;55.75;55.75;3.75;3.75;;;;;12.37;548390;54.125;3.625;74;2.5;12;15000;9.11;1404493
+;Prionailurus bengalensis;;Felinae;Leopard cat;Least Concern;Stable;87.16666667;81.5;61;55.33333333;3.833333333;3.083333333;65;2.5;13;234275;21;8528114;61;3.833333333;65;2.5;13;234275;21;8528114
+59;Prionailurus bengalensis bengalensis;;Felinae;Leopard cat;Least Concern;Stable;77;72;55.5;50.5;2.15;2.15;;;;232565;;7295999;61;3.833333333;65;2.5;13;234275;21;8528114
+60;Prionailurus bengalensis euptilurus (Amur);;Felinae;Leopard cat;Least Concern;Stable;106;96.5;72.5;63;5.1;3.85;;;;1600;;1231897;61;3.833333333;65;2.5;13;234275;21;8528114
+61;Prionailurus bengalensis euptilurus (Iriomote);;Felinae;Leopard cat;Critically Endangered;Stable;78.5;76;55;52.5;4.25;3.25;;;;110;;214;61;3.833333333;65;2.5;13;234275;21;8528114
+;Prionailurus javanensis;;Felinae;Leopard cat;Least Concern;;66.5;66.5;44.5;44.5;2.15;2.15;63;2;13;;12.83;;44.5;2.15;63;2;13;;12.83;
+62;Prionailurus javanensis javanensis;;Felinae;Leopard cat;Least Concern;;66.5;66.5;44.5;44.5;2.15;2.15;;;;;;;44.5;2.15;63;2;13;;13.83;
+63;Prionailurus javanensis sumatranus;;Felinae;Leopard cat;Least Concern;;66.5;66.5;44.5;44.5;2.15;2.15;;;;;;;44.5;2.15;63;2;13;;14.83;
+54;Prionailurus planiceps;;Felinae;Leopard cat;Endangered;Decreasing;67.5;64.5;51;48;2.1;1.7;56;1.5;14;3200;4;153254;51;2.1;56;1.5;14;3200;4;153254
+;Prionailurus rubiginosus;;Felinae;Leopard cat;Near Threatened;Decreasing;65;62.53333333;42.83333333;40.36666667;1.583333333;1.266666667;68;2;18;;;2373736;42.83333333;1.583333333;68;2;18;;;2373736
+58;Prionailurus rubiginosus koladivius;;Felinae;Leopard cat;Endangered;Decreasing;65.5;61.8;43.5;39.8;1.6;1.25;;;;;;49339;42.83333333;1.583333333;68;2;18;;;2373737
+57;Prionailurus rubiginosus phillipsi;;Felinae;Leopard cat;Endangered;Decreasing;65.5;61.8;43.5;39.8;1.6;1.25;;;;;;16446;42.83333333;1.583333333;68;2;18;;;2373738
+56;Prionailurus rubiginosus rubiginosus;;Felinae;Leopard cat;Near Threatened;Decreasing;64;64;41.5;41.5;1.55;1.3;;;;;;2307951;42.83333333;1.583333333;68;2;18;;;2373739
+;Prionailurus viverrinus;;Felinae;Leopard cat;Vulnerable;Decreasing;122;97.5;90;32;12.25;6.05;66.5;2;10;;24.33;238002;90;12.25;66.5;2;10;;24.33;238002
+55;Prionailurus viverrinus rhizophoreus;;Felinae;Leopard cat;Vulnerable;Decreasing;122;97.5;90;32;12.25;6.05;66.5;2;10;;;;90;12.25;66.5;2;10;;24.33;238002
+;Prionailurus viverrinus viverrinus;;Felinae;Leopard cat;Vulnerable;Decreasing;122;97.5;90;32;12.25;6.05;66.5;2;10;;24.33;238002;90;12.25;66.5;2;10;;24.33;238002
+24;Puma concolor;;Felinae;Puma;Least Concern;Decreasing;191.75;182;123.75;114;64.5;40.25;91.25;2.5;10;;2.51;22868874;123.75;64.5;91.25;2.5;10;;2.51;22868874
+25;Puma concolor concolor;South America;Felinae;Puma;Least Concern;Decreasing;181;181;117.5;117.5;57.5;35;;;;;2.85;16836506;123.75;64.5;91.25;2.5;10;;2.51;22868874
+;Puma concolor cougar;North America;Felinae;Puma;Least Concern;Decreasing;202.5;183;130;110.5;71.5;45.5;;;;14250;2.17;6032366;123.75;64.5;91.25;2.5;10;;2.51;22868874
