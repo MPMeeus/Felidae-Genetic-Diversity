@@ -14,4 +14,5 @@ As the world is hit by the sixth mass extinction, it becomes increasingly import
 
 ## Data access:
 
+Metadata to run the Snakefiles are present in the respective repositories. Data used in the R script is available in a folder stored alongside the script and available through the supplementary material of Meeus et al. (2025). 
 Additional data including shapefiles and VCF files can be found on the Open Science Framework: https://osf.io/5pkue/
