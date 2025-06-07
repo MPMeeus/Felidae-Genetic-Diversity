@@ -4,7 +4,7 @@ Code used for the analysis in Meeus et al. (2025).
 Genomes were downloaded using rule fastql in the "Genomescope" Snakefile. The "VCF" Snakefile was used for subsequent mapping of the reads and variant calling. Heterozygosity was then calculated using a Python script ("HeterozygosityCalculation.ipynb"). Geographic range sizes were calculated by utilising a python script ("IUCN_range_calculation.py") in the QGIS program (http://www.qgis.org). Statistical analysis was performed using an R script ("HeterozygosityFelidsDataAnalysis.R").
 
 ## Citation:
-[Pending]
+Meeus, M. P., Lescroart, J. and Svardal, H. (2025). Genomic diversity in felids correlates with range and density, not census size. _Conservation Genetics_ DOI: https://doi.org/10.1007/s10592-025-01709-y
 
 ## Abstract:
 
